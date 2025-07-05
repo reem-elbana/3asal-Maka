@@ -41,3 +41,9 @@ body {
     right: 10px !important;
   }
 }
+.swiper-pagination {
+  margin-top: 10px !important;
+  bottom: 0 !important;
+  position: relative !important;
+}
+
