@@ -70,9 +70,7 @@ export default function ProductDetails() {
 
         {/* زر واتساب */}
         <a
-          href={`https://wa.me/966XXXXXXXXX?text=مرحبًا، أود طلب منتج: ${encodeURIComponent(
-            product.name
-          )}`}
+          href={`https://wa.me/201234567890?text=مرحبًا، أود طلب منتج: ${encodeURIComponent(product.name)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center bg-green-500 hover:bg-green-600 text-white font-medium py-2 rounded-md transition duration-200 mb-4"
