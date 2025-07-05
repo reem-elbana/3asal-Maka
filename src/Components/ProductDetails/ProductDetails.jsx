@@ -64,8 +64,8 @@ export default function ProductDetails() {
 
         <p className="text-yellow-700 font-bold text-lg mb-4">
           {product.price_after_discount
-            ? `${product.price_after_discount} `
-            : `${product.price} `}
+            ? `${product.price_after_discount}درهم `
+            : `${product.price} درهم `}
         </p>
 
         {/* زر واتساب */}
